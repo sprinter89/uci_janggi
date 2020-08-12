@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: uci-janggi-sprinter89
-Version: 1.1.0
+Version: 1.1.2
 Summary: A package to interact with fairy-stockfish janggi variant
 Home-page: https://github.com/sprinter89/uci_janggi
 Author: Heeseob Kim

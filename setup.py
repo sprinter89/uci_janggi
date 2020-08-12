@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="uci_janggi-sprinter89", # Replace with your own username
-    version="1.1.0",
+    version="1.1.2",
     author="Heeseob Kim",
     author_email="sprinter89tv@gmail.com",
     description="A package to interact with fairy-stockfish janggi variant",

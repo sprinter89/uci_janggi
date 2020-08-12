@@ -15,18 +15,6 @@ PIECE_SCORES = {
     'k' : 0,
 }
 
-PIECE_NAMES = {
-    'r' : '차',
-    'c' : '포',
-    'n' : '마',
-    'b' : '상',
-    'a' : '사',
-    'p' : '병',
-    'P' : '졸',
-    'k' : '한',
-    'K' : '초'
-}
-
 class Janggi:
     def __init__(self, path : str, options = '') -> None:
         self.stock = subprocess.Popen(
@@ -66,7 +54,7 @@ class Janggi:
             if line[0] == 'bestmove':
                 return line[1]
 
-    def set_board(self,*, stock_moves: [str], fen: str) -> None:
+    def set_board(self, fen: str, stock_moves: [str]) -> None:
         "get move(stock move list of string) and FEN(string)."
         self.put(f'position fen {fen} moves {" ".join(stock_moves)}')
     
