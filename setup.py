@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="uci_janggi-sprinter89", # Replace with your own username
-    version="1.0.0",
+    version="1.1.0",
     author="Heeseob Kim",
     author_email="sprinter89tv@gmail.com",
     description="A package to interact with fairy-stockfish janggi variant",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: Microsoft :: Windows",
     ],
-    python_requires='>=3.8',
+    python_requires='>=3.0',
 )
