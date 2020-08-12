@@ -1,7 +1,5 @@
 README.md
 setup.py
-uci_janggi/__init__.py
-uci_janggi/uci_janggi.py
 uci_janggi_sprinter89.egg-info/PKG-INFO
 uci_janggi_sprinter89.egg-info/SOURCES.txt
 uci_janggi_sprinter89.egg-info/dependency_links.txt
